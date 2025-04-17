@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+  <city>tehran</city>
+  <from>1399-03-09 00:00</from>
+  <to>1399-03-15 00:00</to>
+  <guests>
+    <parents>2</parents>
+    <children>2</children>
+  </guests>
+</hotel>

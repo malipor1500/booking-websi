@@ -1,0 +1,196 @@
+/* Normal white Button as seen on Google.com*/
+.button-common {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+
+.button-common:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+.button-common:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}
+
+/* Blue button as seen on translate.google.com*/
+/*button.blue {*/
+/*    color: white;*/
+/*    background: #4C8FFB;*/
+/*    !*border: #3079ED solid;*!*/
+/*    border: None;*/
+/*    box-shadow: inset 0 1px 0 #80B0FB;*/
+/*}*/
+
+/*button.blue:hover {*/
+/*    border: 1px #2F5BB7 solid;*/
+/*    box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;*/
+/*    background: #3F83F1;*/
+/*}*/
+
+/*button.blue:active {*/
+/*    box-shadow: inset 0 2px 5px #2370FE;*/
+/*}*/
+
+/* Orange button as seen on blogger.com*/
+button.orange {
+    color: white;
+    border: 1px solid #FB8F3D;
+    background: -webkit-linear-gradient(top, #FDA251, #FB8F3D);
+    background: -moz-linear-gradient(top, #FDA251, #FB8F3D);
+    background: -ms-linear-gradient(top, #FDA251, #FB8F3D);
+}
+
+button.orange:hover {
+    border: 1px solid #EB5200;
+    background: -webkit-linear-gradient(top, #FD924C, #F9760B);
+    background: -moz-linear-gradient(top, #FD924C, #F9760B);
+    background: -ms-linear-gradient(top, #FD924C, #F9760B);
+    box-shadow: 0 1px #EFEFEF;
+}
+
+button.orange:active {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+button.blue {
+    color: white;
+    border: 1px solid #2F5BB7;
+    background: -webkit-linear-gradient(top, #4C8FFB, #2F5BB7);
+    background: -moz-linear-gradient(top, #4C8FFB, #2F5BB7);
+    background: -ms-linear-gradient(top, #4C8FFB, #2F5BB7);
+}
+
+button.blue:hover {
+    background: -webkit-linear-gradient(top, #4C8FFB, #2F5BB7);
+    background: -moz-linear-gradient(top, #4C8FFB, #2F5BB7);
+    background: -ms-linear-gradient(top, #4C8FFB, #2F5BB7);
+    border: 1px solid #2F5BB7;
+}
+
+button.blue:active {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: -webkit-linear-gradient(top, #4C8FFB, #2F5BB7);
+    background: -moz-linear-gradient(top, #4C8FFB, #2F5BB7);
+    background: -ms-linear-gradient(top, #4C8FFB, #2F5BB7);
+}
+
+
+
+button.green {
+    color: white;
+    border: 1px solid green;
+    background: -webkit-linear-gradient(top, #4CAF50, green);
+    background: -moz-linear-gradient(top, #4CAF50, green);
+    background: -ms-linear-gradient(top, #4CAF50, green);
+}
+
+button.green:hover {
+    background: -webkit-linear-gradient(top, #4CAF50, green);
+    background: -moz-linear-gradient(top, #4CAF50, green);
+    background: -ms-linear-gradient(top, #4CAF50, green);
+    border: 1px solid green;
+}
+
+button.green:active {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: -webkit-linear-gradient(top, #4CAF50, green);
+    background: -moz-linear-gradient(top, #4CAF50, green);
+    background: -ms-linear-gradient(top, #4CAF50, green);
+}
+
+.btn-peigiri {
+    font-family: vazirregular;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    color: gray;
+    padding: 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Orange */
+
+.btn-peigiri:hover{
+    border-color: #ff9800;
+    color: orange;
+}
+
+.btn-hotel {
+    margin-top: 20px;
+    font-family: vazirregular;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 5px 10px;
+
+}
+
+/* Orange */
+
+.btn-hotel:hover{
+    border-color: #ff9800;
+    color: orange;
+}
+
+.btn-hotel-active{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.btn-signin {
+    font-family: vazirregular;
+    background-color: whitesmoke;
+    padding: 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: None;
+}
+
+.btn-signin-deactive{
+    border: 2px solid gray;
+    color: gray;
+}
+
+/* Orange */
+
+.btn-signin:hover{
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+.btn-signin-active {
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.btn-signin-active p {
+    color: dodgerblue;
+}
+
+.btn-signin:hover p{
+    color: dodgerblue;
+}
+
+.btn-submit-code {
+    font-family: vazirregular;
+    font-size: 15px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}

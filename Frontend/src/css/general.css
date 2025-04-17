@@ -1,0 +1,101 @@
+
+p{
+    font-family: "vazirregular";
+}
+
+.container-subheader {
+    /*background-image: url("images/hotel2.jpg");*/
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("../images/island2.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+
+.color_overlay {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.column-subheader {
+    text-align: center;
+    float: left;
+    padding: 20px ;
+    filter: invert(1000%) sepia(120%) saturate(2878%) hue-rotate(180deg) brightness(104%) contrast(100%);
+}
+
+@media (min-width: 1200px) and (max-width: 1479px) {
+    .column-subheader{
+        margin-top: 30%;
+        width: 16.66666%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .column-subheader {
+        margin-top: 25%;
+        width: 33.333333%;
+    }
+}
+
+@media (min-width: 1480px) {
+    .column-subheader {
+        margin-top: 15%;
+        width: 16.666666%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .column-subheader {
+        margin-top: 30%;
+        width: 50%;
+    }
+
+    .container-subheader{
+        background-image: None;
+    }
+}
+
+@media (max-width: 479px) {
+    .column-subheader {
+        width: 100%;
+    }
+
+    .container-subheader{
+        background-image: None;
+    }
+}
+
+
+
+
+.column-subheader:hover,
+.column-subheader:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.column-subheader p {
+    font-family: vazirregular;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+    /*margin-top: 10px;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

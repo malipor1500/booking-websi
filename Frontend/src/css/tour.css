@@ -1,0 +1,21 @@
+.tour{
+    position: relative;
+    padding-top: 5%;
+    direction: ltr;
+}
+
+.card-tour {
+    padding: 10% 5% ;
+    text-align: center;
+}
+
+.card-tour p{
+    font-family: vazirregular;
+    font-size: 15px;
+}
+
+.card-tour p:last-child{
+    color: gray;
+    font-size: 12px;
+}
+

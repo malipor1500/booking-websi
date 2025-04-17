@@ -1,0 +1,84 @@
+.icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    z-index: 10;
+}
+
+.icon-hotel {
+    background-image: url("../images/hotel.svg");
+    /*margin-top: 50px;*/
+    /*margin-right: 10%;*/
+}
+
+.icon-sms {
+    background-image: url("../images/sms.svg");
+    /*margin-top: 50px;*/
+    /*margin-right: 10%;*/
+}
+
+.btn-signin:hover .icon-sms {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(104%) contrast(97%);
+}
+
+.btn-signin-active .icon-sms {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(104%) contrast(97%);
+}
+
+.icon-letter {
+    background-image: url("../images/newsletter.svg");
+}
+
+.btn-signin:hover .icon-letter {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(104%) contrast(97%);
+}
+
+.btn-signin-active .icon-letter {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(104%) contrast(97%);
+}
+
+.icon-tour {
+    background-image: url("../images/tour.svg");
+}
+
+/*.icon-tour:hover,*/
+/*.icon-tour:focus {*/
+/*    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+/*}*/
+
+.icon-bus {
+    background-image: url("../images/bus.svg");
+}
+
+/*.icon-bus:hover,*/
+/*.icon-bus:focus {*/
+/*    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+/*}*/
+
+.icon-train {
+    background-image: url("../images/train.svg");
+}
+
+/*.icon-train:hover,*/
+/*.icon-train:focus {*/
+/*    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+/*}*/
+
+.icon-foreign_flight {
+    background-image: url("../images/foreign_flight.svg");
+}
+
+/*.icon-foreign_flight:hover,*/
+/*.icon-foreign_flight:focus {*/
+/*    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+/*}*/
+
+.icon-internal_flight {
+    background-image: url("../images/internal_flight.svg");
+}
+
+/*.icon-internal_flight:hover,*/
+/*.icon-internal_flight:focus {*/
+/*    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+/*}*/

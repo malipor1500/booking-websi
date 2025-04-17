@@ -1,0 +1,39 @@
+.row-gallery {
+  margin: 10px -5px;
+}
+
+/* Clear floats after the columns */
+.row-gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-gallery-main {
+  position: relative;
+  float: right;
+  /*padding: 0 50px;*/
+  width: 100%;
+}
+
+.column-gallery-main img {
+  width: 1140px;
+  border-radius: 5px;
+  height: 650px;
+}
+
+.column-gallery {
+  cursor: pointer;
+  position: relative;
+  float: right;
+  /*padding: 0 50px;*/
+  width: 14.28%;
+}
+
+.column-gallery img {
+  width: 150px;
+  height: 120px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+

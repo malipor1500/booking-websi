@@ -1,0 +1,29 @@
+.row-menu {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-menu-items {
+    float: right;
+    padding: 0 50px;
+    width: 33%;
+}
+
+.column-menu-items-left{
+   float: right;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.menu-items-left {
+    float: left;
+    width: 33.333%;
+    padding: 0 10px;
+
+}
